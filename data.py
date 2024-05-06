@@ -31,7 +31,7 @@ def mergeCSVs(tickers):
 
 
 # Example usage
-tickers = ['AAPL', 'MSFT', 'GOOGL']  # Define your list of tickers here
+tickers = ['AAPL', 'MSFT', 'GOOGL', 'SQ']  # Define your list of tickers here
 for ticker in tickers:
     getStockData(ticker)
 mergeCSVs(tickers)
